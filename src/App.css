@@ -76,10 +76,10 @@ text-decoration: none;
 }
 
 .ad-form{
-  margin: 0 auto;
+  margin: 10px auto;
   width: 50%;
   min-width: 350px;
-  margin: 2px solid black;
+  border: 2px solid black;
 }
 fieldset { 
   display: block;
@@ -412,7 +412,9 @@ padding: 20px;
 
 }
 
-
+ad form input#price{
+  width: 100%
+}
 
 
 
@@ -453,9 +455,10 @@ padding: 20px;
   }
   
   .ad-form{
-    margin: 0 auto;
+    border: 2px solid #000;
+    margin: 10px auto;
     width: 80%;
-    margin: 2px solid black;
+    
   }
   .main-login form {
     width: 80%;
@@ -484,9 +487,9 @@ input.form-control.mr-sm-1 {
   width: 60%;
 }
 .ad-form{
-  margin: 0 auto;
+  margin: 10px auto;
   width: 70%;
-  margin: 2px solid black;
+  border: 2px solid black;
 }
 .main-login form {
   width: 60%;
@@ -513,10 +516,11 @@ input.form-control.mr-sm-1 {
     margin: 40px auto;
   }
   .ad-form{
-    margin: 0 auto;
+    margin: 10px auto;
     width: 55%;
-    margin: 2px solid black;
+    border: 2px solid black;
   }
+  
   .main-login form {
     width: 50%;
     margin: 0 auto;
@@ -528,9 +532,9 @@ input.form-control.mr-sm-1 {
 
   }
   .ad-form{
-    margin: 0 auto;
+    margin: 10px auto;
     width: 50%;
-    margin: 2px solid black;
+    border: 2px solid black;
   }
   /* sign up */
   .product-form
@@ -580,7 +584,7 @@ input.form-control.mr-sm-1 {
   .ad-form{
     margin: 15px auto;
     width: 40%;
-    margin: 2px solid black;
+    border: 2px solid black;
     
   }
 }

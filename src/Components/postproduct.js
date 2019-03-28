@@ -183,6 +183,7 @@ class PostProduct extends Component {
                                 <option value="Computer">Computer/Laptop</option>
                                 <option value="Vehicle">Vehicle</option>
                                 <option value="Bike">Bike</option>
+                                <option value="Watch">Watch</option>
                             </select>
                         </div>
                         <div className="form-group">
@@ -209,7 +210,7 @@ class PostProduct extends Component {
                         </div>
                         <div className="form-group">
                             <label htmlFor="price">Set a price</label>
-                            <input type="number" className="form-control" id="price" placeholder="Enter product price here in PKR" ref='price' />
+                            <input type="number" style={{width:"100%"}} className="form-control" id="price" placeholder="Enter product price here in PKR" ref='price' />
                         </div>
                         <div className="form-group">
                             <label htmlFor="description" >Add description</label><br />
